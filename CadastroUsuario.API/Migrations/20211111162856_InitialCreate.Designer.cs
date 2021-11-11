@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CadastroUsuario.API.Migrations
 {
     [DbContext(typeof(CursoDbContext))]
-    [Migration("20211110124932_Base-Inicial")]
-    partial class BaseInicial
+    [Migration("20211111162856_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

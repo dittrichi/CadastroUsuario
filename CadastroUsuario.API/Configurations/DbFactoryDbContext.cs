@@ -9,7 +9,7 @@ namespace CadastroUsuario.API.Configurations
         public CursoDbContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<CursoDbContext>();
-            optionsBuilder.UseSqlServer("Server=DESKTOP-I3SI7OF\\SQLEXPRESS;Database=CURSO;user=sa;password=00Zero00");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-7QV2PLJ\\SQLEXPRESS;Database=CURSO;user=sa;password=00Zero00");
             CursoDbContext contexto = new CursoDbContext(optionsBuilder.Options);
 
             return contexto;

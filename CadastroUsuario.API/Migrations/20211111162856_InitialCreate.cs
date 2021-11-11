@@ -2,7 +2,7 @@
 
 namespace CadastroUsuario.API.Migrations
 {
-    public partial class BaseInicial : Migration
+    public partial class InitialCreate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
